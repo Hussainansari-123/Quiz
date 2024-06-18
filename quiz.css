@@ -1,0 +1,38 @@
+*{
+    margin:0px;
+    padding:0px;
+    border:border-box;
+}
+.main{
+    height:100vh;
+    width:100%;
+    background-color:aqua;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column;
+}
+#box{
+    font-size:normal;
+    font-family: Arial, Helvetica, sans-serif;
+    height:400px;
+    width:40%;
+    background-color:white;
+    box-shadow:4px 4px 4px 4px rgba(0,0,0,0.5);
+    padding:15px;
+    border-radius:2rem;
+
+}
+.row{
+    width:100%;
+    margin:2rem;
+    margin-left:0px;
+}
+button{
+    border:none;
+    font-size:1rem;
+    width:100%;
+    background-color:aqua;
+    padding:5px;
+    
+}
